@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ASM.EmployeeManagement.WebAPIUI.Model.Common.Response" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ASM.EmployeeManagement.WebAPIUI.Model.Common.Response" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ASM.EmployeeManagement.WebAPIUI.Model.Common" />
+  <xs:complexType name="ResultBase">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/ASM.EmployeeManagement.WebAPIUI.Model.Common" base="q1:ClientInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Result" nillable="true" type="tns:Result" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ResultBase" nillable="true" type="tns:ResultBase" />
+  <xs:complexType name="Result">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResultCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorDetail" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Result" nillable="true" type="tns:Result" />
+  <xs:complexType name="PagingResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HitCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagingResult" nillable="true" type="tns:PagingResult" />
+</xs:schema>

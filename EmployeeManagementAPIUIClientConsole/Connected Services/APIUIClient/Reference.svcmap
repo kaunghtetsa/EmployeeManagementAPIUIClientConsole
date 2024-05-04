@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e9d3829c-5d8d-44db-b165-ba8eed7d215f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService.wsdl" MetadataType="Wsdl" ID="9d083dd9-c47e-4d55-894d-eb6f99138ed5" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?wsdl" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService.disco" MetadataType="Disco" ID="16b4640f-da06-4e39-ae52-dfb0fadb2a97" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?disco" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService1.wsdl" MetadataType="Wsdl" ID="612bad4c-935a-4ab8-85c4-bbf3574c94f2" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService.xsd" MetadataType="Schema" ID="a890bccf-9734-4170-b913-87a754d5d4fe" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd4" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService1.xsd" MetadataType="Schema" ID="92fce511-821a-4c89-90af-a94902750e29" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd5" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService2.xsd" MetadataType="Schema" ID="62fc0c03-2828-4bcc-a60a-8827cb099f2a" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd6" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService3.xsd" MetadataType="Schema" ID="66dc16b5-e4df-4d84-8473-f22d2d7730eb" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService4.xsd" MetadataType="Schema" ID="25de024b-9c83-423e-a231-f3813dec2e82" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd3" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService5.xsd" MetadataType="Schema" ID="437f6c28-5709-4777-a033-e0389e6bf70c" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService6.xsd" MetadataType="Schema" ID="c6c02b29-3ba8-4c0a-9ff3-06d29d8eeffd" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd7" />
+    <MetadataFile FileName="EmployeeManagementWebAPIUIService7.xsd" MetadataType="Schema" ID="2f121765-0045-4520-8a12-55ad769ca816" SourceId="1" SourceUrl="http://localhost/EmployeeManagementWebAPIUI/EmployeeManagementWebAPIUIService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
